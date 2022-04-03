@@ -28,3 +28,10 @@ Improvements:
   - Temp varaible to save the convolution result: 364.13 us.
   - Loop unrolling: 361.08 us.
   - Kernel in constant memory: 208.85 us.
+
+## REDUCE COL
+Given a matrix, calculate the sum over each row.
+
+Improvements:
+  - Naive implementation: 154.65 us.
+  - Remove stride reading in global memory: 92.309 us.
